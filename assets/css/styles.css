@@ -1,0 +1,184 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+}
+/* cinta de ariba */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f4f2f6;
+    color: #d3cfd2;
+    height: 100px;
+}
+/* mi nombre */
+header h1 {
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-style: solid;
+        color: rgb(206, 192, 192);
+        text-shadow: 2px 2px 4px #0a0a0a;
+      }
+  
+
+/* la ubicacion be about proyect ariba en la derecha */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+
+}
+
+
+/* class header*/
+
+.header {
+    color: #151111;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.search-item {
+    margin: 25px;
+}
+
+.search-item h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.imag {
+    border-radius: 150px;
+  border-style: solid;
+  border-color: rgb(17, 18, 18);
+   display: block;
+  margin-left:auto;
+  margin-right: auto;
+  width: 15%;
+
+
+}
+
+div {
+  
+    border: solid black 1px;
+    width: 100%;
+    block-size: 200px;
+    margin-bottom: 2rem;
+    background-image: url(../image/cielo.jpg);
+    font-weight: bold;
+    
+}
+   div a::before{
+    content: "View ";
+    font-weight: bold;
+    color: #000;
+   
+
+   }
+
+
+/* ----------------------------------------- */
+
+
+main section p {
+    margin-bottom: 1rem;
+  }
+  
+  main article {
+    margin-bottom: 2rem;
+    border: 1px solid #090909;
+    padding: 1rem;
+  }
+  
+  #Project article  {
+    background-image: url("../image/cielo.jpg");
+  
+  }
+  
+  
+  main article h3 {
+    color: rgb(17, 17, 17);
+    margin-bottom: 0.5rem;
+  }
+  
+ 
+  
+  main article a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  main article a::before {
+    content: "View ";
+    font-weight: bold;
+  }
+  
+  main article a:hover {
+    color: #0f0e0e;
+  }
+  main article  p{
+    color: #000;
+    margin-bottom: 1rem;
+  }
+
+
+/* -------------------------------------------- */
+main ul li {
+    box-sizing: border-box;
+    float: center;
+        border: 2px solid rgb(254, 253, 253);
+        outline: #080808 solid 2px;
+        margin: auto; 
+        width: 30%; 
+        padding: 10px;
+        text-align:left;
+      }
+
+
+main li {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(17, 77, 29);
+       
+}
+
+p {
+    text-align: center;
+    color: rgb(7, 7, 7);
+    font-size: 20px;
+}
+
+
+
+.footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(248, 240, 240);
+    margin: 0px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  
